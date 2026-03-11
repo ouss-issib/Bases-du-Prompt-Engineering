@@ -49,13 +49,10 @@ Zero-Shot : Demande directe au modèle sans exemples.
 
 Few-Shot : Fournir des exemples (input/output) pour formater la réponse.
 
-
-## 📸 Captures d'écran – Sécurité et Rôles
-
 ---
-| Formulaire de Connexion | Formulaire d’Inscription |
+| OpenAI API | Ollama API |
 |---|---|
-| ![](./captures/login-form.png) | ![](./captures/register-form.png) |
+| ![](./captures/openai_api.png) | ![](./captures/ollama_api.png) |
 
 
 
@@ -66,12 +63,17 @@ Text-to-Image : Génération via OLLAMA.
 
 Image-to-Text : Analyse d'un schéma d'architecture (ex: RAG).
 
+---
+| Image Générée | Analyse de sentiment | Rag | 
+|---|---|---|
+| ![](./captures/generated_image.png) | ![](./captures/json.png) | ![](./captures/rag_human.png) |
+
+
 
 ---
-| Formulaire de Connexion | Formulaire d’Inscription |
-|---|---|
-| ![](./captures/login-form.png) | ![](./captures/register-form.png) |
-
+| Rag |
+|---|
+| ![](./captures/rag.png) |
 
 🚀 Exécution du Notebook
 Ouvrez le dossier dans VS Code.
@@ -79,6 +81,7 @@ Ouvrez le dossier dans VS Code.
 Sélectionnez le kernel .venv créé précédemment.
 
 Exécutez le fichier sma.ipynb (ou le fichier correspondant à votre activité).
+
 
 
 
